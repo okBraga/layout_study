@@ -90,7 +90,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.grey[800],
           centerTitle: true,
         ),
-        body: Column(children: [
+        body: ListView(children: [
           Image.asset(
             'images/piratininga.jpg',
             fit: BoxFit.cover,
